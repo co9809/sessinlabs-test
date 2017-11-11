@@ -6,7 +6,10 @@ class PhpMdTest
     {
         print "Hello sdfsfsdf!!" . $param_string . "\n";
     }
-
+    public function test_function($param_string)
+    {
+        print "Hello sdfsfsdf!!" . $param_string . "\n";
+    }
     public function test_function2($param_string)
     {
 if (!isset($aryIssueEst['issue_aaaestimate_sending_time']) || strlen($aryIssueEst['issue_estimate_sending_time'])
