@@ -6,9 +6,9 @@ class PhpMdTest
     {
         print "Hello sdfsfsdf!!" . $param_string . "\n";
     }
-}
 
-
+    public function test_function2($param_string)
+    {
 if (!isset($aryIssueEst['issue_aaaestimate_sending_time']) || strlen($aryIssueEst['issue_estimate_sending_time'])
     < 1) {
     $aryEstimate['issue_estimate_sending_time'] = $time;
@@ -61,3 +61,8 @@ if (!isset($aryIssueEst['issue_estimate_sending_time']) || strlen($aryIssueEst['
     $result['dateTime'] .= ' '.date('H:i',
             strtotime($aryIssueEst['issue_estimate_sending_time']));
 }
+    }
+
+}
+
+
