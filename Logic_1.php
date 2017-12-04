@@ -1,6 +1,6 @@
 <?php
 
-class PhpMdTest
+class PhpMdTest 
 {
     public function test_function($param_string)
     {
